@@ -1,0 +1,16 @@
+.banner {
+    background-image: linear-gradient(225deg, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../images/background.jpeg);
+    color: white;
+    padding: 150px 0;
+    max-width: 100%;
+    text-align: left; /* Aligne le texte à gauche */
+    background-size: cover; /* L'image couvre tout le conteneur */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+}
+
+.banner > div {
+    max-width: 700px; /* Limite la largeur pour un bon centrage */
+    margin: 0 auto; /* Centre le conteneur de la bannière */
+    padding: 0 20px; /* Ajoute un espace horizontal */
+}

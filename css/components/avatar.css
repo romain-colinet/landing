@@ -1,0 +1,11 @@
+.avatar{
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+.avatar{
+    width: 100px;          /* Ajustez la taille de l'image si nécessaire */
+    height: 100px;
+    border-radius: 50%;    /* Rend l'image ronde */
+    object-fit: cover;     /* Garde le ratio de l'image sans distorsion */
+    margin: 10px 0;        /* Ajoute un espace autour de l'image */
+}

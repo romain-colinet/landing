@@ -1,0 +1,37 @@
+/* container.css */
+.container {
+    max-width: 700px;      /* Limite la largeur pour un bon centrage */
+    margin: 0 auto;        /* Centre le conteneur sur la page */
+    text-align: left;      /* Aligne le texte à gauche */
+    padding: 20px;         /* Ajoute de l'espace autour du contenu */
+}
+
+/* Style pour les titres dans le conteneur */
+.container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+/* Style pour l'avatar */
+.avatar {
+    width: 100px;          /* Ajustez la taille de l'image si nécessaire */
+    height: 100px;
+    border-radius: 50%;    /* Rend l'image ronde */
+    object-fit: cover;     /* Garde le ratio de l'image sans distorsion */
+    margin: 10px 0;        /* Ajoute un espace autour de l'image */
+}
+
+/* Style pour le bouton */
+.btn-blue {
+    background-color: #6D71DD;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 0;
+}
